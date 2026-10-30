@@ -5,7 +5,8 @@ from aiogram import Bot, Dispatcher
 
 from config import BOT_TOKEN
 from proxy import create_session
-from functional import register_handlers, monitor_telegram
+from bot.handlers import register_handlers
+from functional import monitor_telegram
 
 
 dp = Dispatcher()
