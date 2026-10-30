@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+*.log.*
+
+# IDE
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
